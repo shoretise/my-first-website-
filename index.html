@@ -1,16 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coin Dash</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixel Jumper</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <main class="game">
-    <h1>🪙 COIN DASH</h1>
-    <p>Collect coins.Aviod red blocks!</p>
-    <div class="score">coins: <span id="score">0</span></div>
-    <canvas id=""></canvas>
-   </main>
+  <h1>Pixel Jumper</h1>
+  <p>Collect the coins!</p>
+
+  <div id="score">Coins: 0</div>
+  <canvas id="game" width="800" height="450"></canvas>
+
+  <div class="controls">
+    <button id="left">◀ Left</button>
+    <button id="jump">⬆ Jump</button>
+    <button id="right">Right ▶</button>
+  </div>
+
+  <script src="game.js"></script>
 </body>
 </html>

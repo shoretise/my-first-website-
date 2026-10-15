@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  background: #171b2e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #ffd166;
+}
+
+#score {
+  margin: 12px;
+  font-size: 20px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 8px;
+  background: #87ceeb;
+  touch-action: none;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 18px auto;
+  max-width: 500px;
+}
+
+button {
+  padding: 14px 10px;
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  background: #ffd166;
+  color: #171b2e;
+  font-size: 16px;
+  font-weight: bold;
+  touch-action: none;
+}
